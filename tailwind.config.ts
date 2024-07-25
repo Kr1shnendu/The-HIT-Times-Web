@@ -20,7 +20,16 @@ const config: Config = {
       }, 
       screens: {
         "2.5xl": "1366px",
-      }
+      }, 
+      colors: {
+        articleText: 'var(--article-text-color)',
+        articleBg: 'var(--article-bg-color)',
+        buttonText: 'var(--button-text-color)',
+        buttonBg: 'var(--button-bg-color)',
+        randomArticleBg: 'var(--random-article-bg-color)',
+        randomArticleText: 'var(--random-article-text-color)',
+        randomArticleDescription: 'var(--random-article-description-color)',
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],
