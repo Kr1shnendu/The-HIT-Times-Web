@@ -265,7 +265,7 @@ export default function TSPForm() {
             <div className='bg-blue-400 w-0.5 lg:w-1 rounded-l-3xl'></div>
             <div className="py-5 px-4 sm:px-6 lg:px-8 flex flex-col">
               <label htmlFor="dept" className={poppins.className + " text-gray-900 text-md mb-4"}>
-                Depertment
+                Department
               </label>
               <div className='flex flex-row mb-3 text-sm'>
                 <input className='' value="AEIE" type='radio' id="dept" {...register("dept")} /><span className='w-2'></span>AEIE

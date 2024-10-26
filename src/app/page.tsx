@@ -5,7 +5,7 @@ import WeeklyPortion from "@/components/weekly-portion/WeeklyPortion";
 export default function MDXPage() {
   return (
     <div className="my-4">
-      <HeroSection notice="Join TSP 24-25" noticeLink="/forms/tsp-form"/>
+      <HeroSection notice="Fill Recruitment Form 2K24" noticeLink="/forms/rec-form/common"/>
       <WeeklyPortion />
     </div>
   );
